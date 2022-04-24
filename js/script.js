@@ -45,7 +45,7 @@ tabs.addEventListener('click', function (e) {
 })
 
 
-// Tabs start
+// Tabs scrool start
 window.addEventListener('load', overflowTabs);
 window.addEventListener('resize', overflowTabs);
 
@@ -59,4 +59,4 @@ function overflowTabs(){
     innerTabs.classList.remove('overflow')
   }
 }
-// Tabs end
+// Tabs scrool end
